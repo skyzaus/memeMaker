@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="STYLE.css">
+  </head>
+
+  <body>
+    <div class="inputField">
+      <div class="center">
+        <h1 id="title">YOU ARE NOW ENTERING SKY'S MEAN BEAN MEME MACHINE</h1>
+        <h2 id=instruction>Fill out the Form to Start Creating the Memes!</h2>
+      </div>
+      <div class="form">
+        <form action="" class="meme-generator">
+          <div class="URLInput">
+            <label for="URLInput">Image URL</label>
+            <input type="url" id="URLInput" placeholder="IMAGE URL" required>
+           
+          </div>
+          <div class="topText">
+            <label for="topText">Text On Top</label>
+            <input type="text" id="topText" placeholder="TOP TEXT" required>
+            
+          </div>
+          <div class="bottomText">
+            <label for="bottomText">Text On Bottom</label>
+            <input type="text" id="bottomText" placeholder="BOTTOM TEXT" required>
+           
+          </div>
+          <div class="submitBtn">
+            <button id="submitBtn">Generate Meme!</button>
+            <input id="clearBtn" type="reset" value="Reset">
+            
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="memeImage">
+      <ul id="memeImage">
+      </ul>
+    </div>
+    <script src="JS.js"></script>
+  </body>
+
+</html>
